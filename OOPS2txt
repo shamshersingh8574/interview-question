@@ -1,0 +1,106 @@
+1-> OOPS :object orianted programming System / Structure (smalltalk first pure oops language)
+   OOPS is a Programming paradigm / methodology
+   (Programming paradigm mins=>oops is a way jisme hm development krte hai)
+      1. oops se bne-2 code ko chota kr skte hai.
+      2. code ko reuseable bna skte hai
+
+
+2-> 6 main pillars os oops-
+    1.Class
+    2.Inhertence
+    3.polymorphism
+    4.encapsulation
+    5.Abstraction
+    6.object & method
+
+   1. Class=>   (i) Class is the collection of object. class is user      define data type.
+                (ii) class is not real world entity . it is blue print of object
+
+             exp- animal , bird, this is class. and dog, cat, cow, Sprarrow,pecock this is object
+                  and eat, run , Flying this is method 
+        
+        1.method- a set of codes which perform a aprticuler task.(dog is run. run is method)
+             ex- run , eat, flying (yh code ka asa set hai. jsme koi v work ko performe kr rha hai)
+
+         advantage of method- i-: code reusebility 
+                              ii-:code optimization
+
+        2.Object-  object is a instance of class(dog is a instance of Animal)
+                   object is real word entity (dog, cat, this  real real world)
+                    
+
+        How to create object -: new key word  
+        sy-:Animal dog = new Animal()   (dog is object, Animal is a class)
+            dog.run()                   (. dot method ko call krta hai. run is method)
+
+
+         How many type  inslise object -   
+            1.by using Refrence
+            2.by using method
+            3.constructer
+    
+    
+         *class ka exampale screenshot me hai.
+
+u
+
+
+    2. Inheritance-
+           it is inheriting the properties of parent class in to child class.
+           (i)  inheritence ko hm Extends key word ke throw Achive krte hai.
+           (ii) code reusebility
+           (iii) we can achive polymaphism using inheritance
+
+           exm- 
+                class Animal{                      (Animal parent class or super class)
+                    void eat(){
+                        s.o.p("I am eating");
+                    }
+                }
+
+                class Dog Extends Animal{           (Dog child class or sub-class) 
+                    public static void main()
+                    {
+                        Dog d=new Dog()
+                        d.eat();
+                    }
+    
+                        }
+    
+    
+    3. Polymarphism -:   one name with different form. 
+                         method ke throw hm polymarphism ko achive krte hai.  
+
+                ex- water=> solid,lequid, gas 
+                    sound=> broken, cry, Roar(dhanana)
+
+        Two type of polymorphism -:
+            
+            1- static-  compile time or  overloading  (ak class me same name ke multipal method hai but unke parameter different ho )
+
+            ex- area(int radiius){
+                area= pi*r*r;
+                  }
+            
+               area ( int length){
+                area= 4*legth;
+               }
+
+            2- Dynamic-  runtime    or  overriding   (different class me same name ke method hota hai and unke parameter same ho)
+                 (i) method overriding me inheritance ka concept hona must hai
+
+
+           Diffrence B/W Overloading and Overriding 
+
+             Overloading                      Overriding (must use inheritance)
+           1. same name                      1.same name
+           2. same class                     2.diffrent class
+           3. Diffrent Argument(parameter)   3.same Argument
+                i- no of args                      i- no of arg(1,2)
+                ii-seq of arg                      ii- Seq of arg(number string)
+                iii-type of arg                    iii-type of arg (number) or (string)     
+               
+                                              4.must use inheritance
+
+        
+

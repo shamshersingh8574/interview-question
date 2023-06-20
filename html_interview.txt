@@ -1,0 +1,226 @@
+element=>  element is everything from the start tag to the end tag: <h1></h1>
+
+block element=>A block-level element always starts on a new line. ex-:<div>,<p>,<h>
+inline element=>An inline element does not start on a new line.<br>,<span>,<img>
+
+
+Attribute=> <img src="img_girl.jpg"> , src is attribute 
+
+ HTML list=> unorder<ul></ul>,.(dot,circle,rectangle),., ordered<ol></ol>(1,2,a,b,A,i,)
+
+4.text box me text likha ho aur usme kuchh text ni hona chahiye bahr se.
+<p>A normal input element:<br><input value="hello"></p>
+<p>A readonly input element:<br><input readonly value="hello"></p>
+
+5.ul>li>div and ul li div difference =>ul>li>div mins parent me change hoga, ul li div child me chnage hoga.
+<ul>//parent
+<li></li>
+<li></li>
+ <ul>//child
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+ </ul>
+<li></li>
+<li></li>
+</ul>
+
+
+3.sibling ul ke next p tag ko change krna ho tb red krega  
+<ul> + p {
+  color:"red";
+}
+
+ul ke bad jitne v p tag hai sbko color change krega.
+<ul> ~ p {
+  color:"red";
+}
+<select> => isme <option> ka use krte hai . click krne se display hoga phir select krenge
+
+
+ 
+
+meta tag=> html document ke bare me information provide krta hai.
+           meta tag se browser and serchengine (serching bar) puri information hasil krta hai.
+
+           type of meta tag-
+
+           description-: description part hota hai jo koi webside open krne pr heading ke niche kuchh likha hota hao vhi description part hota hai.
+           isme only two line ko shwo krta hai.
+
+           keyword-: hm apne website ke alg-2 topic ko keyword me define kr skte hai jisase serch engine yh pta chalta hai ki.
+                     ye page kis-2 topic se relate krta hai.
+                
+           Title Tag-:   discraption ke top pr show hota hai. yh sbse important hota hai.
+
+           robots tag:-
+
+    what is crawling -: jb koi website create hota hai to sbse phle uslo crawling kiya jata hai. phir vh google ke local or
+                        harddisk me save hota hai phir use indexing krta hai . phir use ke search ke anusar use provide kratat hai. 
+
+    (*) koi v page crawling ke bad hi indexing hota hai. but jruri ni ki crawling ke bad indexing ho hi jayega.    
+
+         what is robots tag in meta tag=> robots tag ka use hm crawling ke liye krte hai.
+         type of robots tag-12=>
+
+         1-noindex -: isme hm kisi page ko show ni kr skte apne serch engine and index me.
+         2-nofollow -: iska use krne se google koi v link follow ni krega pure page me.
+         3-noarchive -: isme only fresh page and live page hi show krayega. crash page ko show ni krayega serch engine me
+         5-nosnippet -: yh only text and video ke snippet ko rokta hai. image ke snippet ko ni.
+         6-max-snippet:35-: isme hme no dete hai ki kitnr character text show krne hai .
+         7-notranslate-: iska use krne se google page ko translate krne ka suggestion ni deta.
+         8-all-:         iska use krne se sv page text img video sb chlega google pr koi rok ni lgte.
+         9-none-: none krne se koi pemition ni dete google ko na hi indexing ka aur na hi scrawling ka 
+         10-noimgageindex-: iska use krne se koi v page pr ka image  google pr index ni hoga
+
+          Attribute=> name, content, charset, http-equiv
+
+          og tag:- isko hm meta tag ke andar use krte hai isme hm title img description ko add krte hai.
+          phir kisi website ke link ko khi send krte hai to uske andar img text show krta hai. jha send krte hai.
+          markandey mahadev me use kya hua iska.
+
+          <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="5; url=http://www.google.com">  //isme 5 second bad refresh hoga aur apne ap goole ki web sie pr jayega. 
+
+</head>  
+
+
+6. <!DOCTYPE html>=>The declaration is not an HTML tag. It is an "information"
+ to the browser about what document type to expect. declaration for HTML5 ke liye ise declear krte hai.
+
+ 
+I-frame=> iske andar koi v website dekha skte hai. particuller frame ke andar.(iske andar ko responsive kr skte hai)
+
+html5=> <video>,<nav>,<fotter>,<header>, <section>,<nav>
+
+2. fome input field=> 
+  <input type="button">
+ <input type="checkbox">
+ <input type="color">
+ <input type="date">
+ <input type="email">
+ <input type="text">
+
+
+3. json parse=> covert string to object
+
+5.1rem=16px
+
+
+
+<ul ms-auto> =>bootstrap
+
+limitaion of tag in html=>
+
+difference between inline, inline-block, and block?
+block-They usually start on a new line
+inline -Inline elements are <a>, <span>, <strong>, and <img> tags. 
+inline-block->Inline block elements have padding and margins and set height and width values. Though, they are similar to inline elements. 
+
+32. What are the different ways to hide the element using CSS?
+display: none, visibility: hidden, position: absolute
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+===============================================================================================================
+33.type of url in src=> 
+Absolute Url  =>koi web side ka link
+and Relative Url => any page link forword next page home.html etc
+
+lan Attributes = language ke lye <html lang="en-US"> or<html lang="en">
+Tittle Attribute=><p title="I'm a tooltip">This is a paragraph.</p> text pe hover krne se title attribute show hoga
+The title attribute defines some extra information about an element
+
+html is not caseSestative language.
+Atributes not caseSestavie .
+
+heading tag why important=>Search engines use the headings to index the structure and content of your web pages.
+
+<hr> tag => inline element for use horzantal line
+
+<pre> tag=> line space hight or width kitna v de skte hai . jbki <p> ke andar sv ko ak line me convert kr deta hai.
+
+<sub> tag => write bottom side 
+<sup> tag => write top side
+<del> tag => line between
+<address> tag =>  address ke liye ise use krna must hai.
+<cite>The Scream</cite> => author ke name etc.
+<strong> => iska use Note or heading ke liye krte hai.
+
+<target> tag => use open website next page , same page etc
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+<a href="mailto:someone@example.com">Send email</a> email ke liye link.
+<button onclick="document.location='default.asp'">HTML Tutorial</button> buttone link
+
+BookMarks click and move another page
+<p><a href="#C4">Jump to Chapter 4</a></p>
+<p><a href="#C10">Jump to Chapter 10</a></p>
+
+
+imp->image maps => yk image ke andar same image ke another part ke paticullar place pr click krne se open kr skte hai. second link
+<area> yh tag image map me use hota hai. image ke area find krne ke liye.
+<area shape="circle" coords="337, 300, 44" href="coffee.htm">
+rectangle and circle ko chhon ke sv polymorgan me ayenge.
+* image map generator website se fast kr skta hu size ke liye.
+
+
+list=>order(ol), unorder(ul), other list=>isme heading jaisa work hota hai.
+
+id="contai notcont" => not define id, class="contai notcont loinh"=> define class
+
+The <meta> element is typically used to specify the character set, page description, keywords, 
+    author of the document, and viewport settings
+
+style tag and style attribute=> <style>head ke andar hota hai. attribute html ke andar use krte hai.
+
+
+html start tag or Semantics tag use which type way for html write structure=>>>
+<header>
+<nav>
+<section>
+<articale>
+<aside>
+<fotter>
+<details> details tag ke andar <summary> tag ka use kiya jata hai.
+<summary> click a button and display a paragraph
+
+(*)- font-size or kuchh ke liye width:"20vw" use kro not use px
+
+html entites and html symbols=> koi v symbols chahiye le skte hai yha se.
+©	copyright	&copy;
+®	registered trademark	&reg;
+non-breaking space	&nbsp;
+
+
+
+<form>=>
+<textarea name="message" rows="20" cols="50">The cat was playing in the garden.</textarea>
+
+<form >      fieldset ka use border ke liye krte hai. 
+             legend ka use fieldset ke s
+  <fieldset>  
+    <legend>Personalia:</legend>
+     <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+type="file";
+ maxlength="9" size="9"
+ min, max ,required
+=======================================================================================================================
+
+
+////////////link website ka hai.
+Q.1
+https://codesandbox.io/s/goofy-bardeen-si1y3c?file=/src/App.js
+
+Q.2
+https://docs.google.com/document/d/1hhBhulNUzf3_-6XdPOUycUYhRFIGs20XTacySjjxANI/edit

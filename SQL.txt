@@ -1,0 +1,31 @@
+Constraints=>
+data table ke column me restriction(rok lgana) lgana .
+mins kis type ka data ayega kaisa ni ayega.
+
+Primary key=>
+primary key always unic hoti hai.
+primary key me null value ni hoti hai.
+ak table me only one primery key set kr skte hai.
+id. ko hm table me unic bnate hai.
+
+Foreign key=>
+iska use mai 2 table ko add krne ke liye use krte hai.
+
+
+inner join=>
+2 table me se jo common data hota hai use hm inner join khte hai.
+
+Left join=>
+2 table me se common data and left side ke sv data ko lata hai . jo table 2 me match
+ ni krta.
+
+ right join=>
+ 2 table me se common data and right side ke sv data ko lata hai.jo table 1 me 
+ match ni krta. 
+
+cross join =>
+isme table 1, ke sare ak-2 id table 2 ke sv  se bari-bari add rhenge
+
+
+normlazition=>
+table ke andar data ke dublicasive ko remove krne ke liye is method ka use krte hai.

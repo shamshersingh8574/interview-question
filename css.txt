@@ -1,0 +1,85 @@
+position=> 
+ static
+ relative
+ fixed- same jgh pe rhega scroll krne pr v khi rhega
+ absolute
+ sticky- yh top pe jakr ruk jati hai
+
+ z-index: 1 and -1;=> 1 ke place pr koi number ho skta hai.
+
+ 4. @media=> mobile size-320px,375px,425px, tablet size=> 768px,  laptop =>1024px  
+
+@media only screen and (max-width: 600px) {  //600px se km hone pr..
+  body {
+    background-color: lightblue;
+  }
+}
+box-model=> yh content , padding, border , margine se mil ke bna hota hai.
+box-sizing:"border-box"=> yh width ko manage krta hai. ye lgane se width utna hi rhega . padding, border dene se width vhi rhegi.
+this property allows us to include the padding and border in an element's total width and height.
+
+5. text ko center kitne type se kr skte hai
+text-align:center;
+justifia-content:center;
+justifia-item:center;
+
+
+pseudo-class=> 
+   a:hover {
+   color: #FF00FF;
+    }
+    
+pseudo-element=>
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+  font-size:50px;
+}
+You can use the ::first-line pseudo-element to add a special effect to the only first line of a text.
+
+
+!important=>yh tag ke andar priverty set krne ke liye use hota hai.
+<p id="col" class="ser"></p>
+p {
+  background-color: red !important;
+}
+
+1.display -inline=>yh 2 paragraph ko add krta hai. ak line ho jata hai next line se.
+2.display- block => yh by default hota hai. yh next line me send krta hai.
+3.display-inherit=> yh apne parrent ke propery ko access krta hai.
+
+2.background properity=>
+background-color
+background-position:isme left right top bottum img ki position set krte hai. 
+background-size:cover, auto, cotainer, cover;
+background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: scroll;
+
+======before and after p or other tag ke andar paragraph ke start me and
+  after paragraph ke end me show krta hai.
+   isme content likhna must hai isme hm img v de skte hai.ise hm img tag ke sath use ni kr skte.
+4. p::before{
+ content:"hello "
+ color:"red"
+}
+3.p::after{
+ content:"hello "
+ color:"red"
+}
+6.css selector=>CSS selectors are used to "find" (or select) the HTML elements you want to style.
+ex-name, id, class , attribute
+
+7. margin:"25px 20px" two bar value dete hai tb. 25px mins top and buttom se 20px mins left and right se .
+margin:"25px 20px 30px 40px" isme top , right, bottom, left,
+
+====center me krne ke liye width and margin: auto;
+ width: 20vw;
+  margin: auto;
+
+   max-width: 1000px;
+  margin: 0 auto;
+
+  max-width=> isme content down ki trph move krta hai. 
+  width=> isme content move ni krta fixed hota hai.

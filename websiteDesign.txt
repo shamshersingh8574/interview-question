@@ -1,0 +1,28 @@
+header => h1 ak bar use hoga h2,h3 kitne bar use ke skte ho.
+section=> isme sbka margin top same rkho.
+fonts =>   google fonts, font squirrel, fontsquirrel webfont genertor(convert .woff2 file)
+h1,h2,h3,p=> sbka ak bar css likho and use hr place pr kro. p ka font size hmesa same hi rhega
+container=> max-width, margin:0 auto, padding:0, 20px;
+img=>    max-width:100%;
+footer=>
+navbar=> isme hm ul li a rkhte hai . only nav vale part ko.
+variable=> for color
+buttom=> isko hmesa <a> tag ke andar rkhte hai.
+
+
+1240 - 1360px => desktop size 
+
+992 - 1239px =>  land desktop , container size: 970px
+
+768px - 991px => mobile size, container size: 750px;
+
+767px - 479px =>  container size: 100%;
+
+=====formate for use this website=========
+html formate
+css formate
+
+html tamplate dekho
+position study
+after, before
+combinator

@@ -1,0 +1,38 @@
+ interview question link
+https://www.interviewbit.com/bootstrap-interview-questions/
+                          
+      bootstrap-4                            bootstrap-5
+    jQuery  requir
+    5 tier grid system(xs, sm, md, lg, xl).
+        	                                  6 tier grid system(xs, sm, md, lg, xl, xxl)
+                                              jQuery no require , 
+                                              new custom property,
+                                              remove internet explore
+. 4 tier grid system (xs, sm, md, lg). in B3 use. 
+. row class not required in B3
+3.box model=>isme margine padding border use krte hai 
+4.container=> container ke with px me hote hai fixed hoti hai xl-1200px
+5.container fluid =>100% hota hai screen ka . isme se koi ak hi use kiya ja skta hai.container or container fluid
+6.include classes B5=> xx-large-1320px
+7.phle-B4,B3 ise classes => container container fluid
+8.
+
+
+.col- (extra small devices - screen width less than 576px)
+.col-sm- (small devices - screen width equal to or greater than 576px)
+.col-md- (medium devices - screen width equal to or greater than 768px)
+.col-lg- (large devices - screen width equal to or greater than 992px)
+.col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+.col-xxl- (xxlarge devices - screen width equal to or greater than 1400px)
+
+grid classes fetchers=>columns, row, columns-12, support screen, xs(extra small),sm(small),md(medium),lg(large),xl,xxl(extra extra large)
+
+9.- bootstrap structure=> container row col
+
+class=> praimary , success, info, danger
+10.order=> div ke order ko set krega 
+11.offset=> left se margin jaisa work krega but column-12 pr work krta hai
+gutters(.gx-)-padding-right and padding-left
+
+
+

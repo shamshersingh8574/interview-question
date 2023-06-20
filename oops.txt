@@ -1,0 +1,190 @@
+ OOPs :object orianted programming System / Structure
+   OOPS is a Programming paradigm / methodology(Programming paradigm=>oops is a way jisme hm development krte hai)
+      1. oops se bne-2 code ko chota kr skte hai.
+      2. code ko reuseable bna skte hai
+  
+        wrapping of data member and member functions such that no other part of that code ca access that .
+        
+        [*] Access specifier:
+         public, private, protected
+         
+         public - the property or method can be accessed from everywhere. This is default
+         protected - the property or method can be accessed within the class and by classes derived from that class
+         private - the property or method can ONLY be accessed within the class
+         
+
+         class:class is blue print of object.
+          Class is a blueprint of a real word entity or object. Which have it's own data member(vairiable) and
+         member function. (function)
+         
+         
+         object: It is instance of class. 
+         object is a collection of releted data and releted functionality.
+         
+         new: key word hota hai.
+         
+         
+         Memory: Two type of Stack and heap.
+         
+         
+         
+         
+         Efficiency , security.
+         
+         4 Efficiency-
+         
+         1.Polymorphism  - one name with different form.
+         
+            circle , square:
+            
+           exm->mai ak hu and mera relation alg-2 place pe alg-2 hai
+            
+            area(int radius){
+                area= pi*r*r;
+            }
+            
+            area ( int length){
+                area= 4*length;
+            }
+            
+            
+            Two type of polymorphism:
+            
+            1- static-  compile time or  overloading
+            2- Dynamic-  runtime      or  overriding
+            
+ 
+            overloading:-
+                   ak class me same name ke multipal method hai but unke parameter different ho
+
+                area(int radiius){
+                area= pi*r*r;
+                  }
+            
+               area ( int length){
+                area= 4*legth;
+               }
+
+
+            overriding-:
+            
+            reimplementation of function;
+           
+              
+                 area(int radiius){
+                area= pi*r*r;
+            }
+              
+                 area(int radiius){
+                System.out.print("Messagesdfsf");
+            }
+            
+            
+            
+         2- Encapsulation
+                  
+            *isme hm data, variable, method ko ak hi unit ke andar bind kr dete hai.
+            *Wrapping of data member and member function into a single unit is called encap..
+            *isme hm data ko hide krte hai (private krke )
+    
+            * We can achieve it using access specifier -: private protected and  public 
+        
+        Ex: School bag- we have laptop, pen , pencil, copy, etc..
+        
+         * for achieve 100 % encapsulation we use private and protected and getter setter method.
+         
+         class emp{
+
+         private String name;
+         
+         public void setname(String name){       // setter data ko modifai krayega
+             this.name= name;
+         }
+         
+         public String getname(){                 // getter data ko view krayega
+             System.out.print(name);
+         }
+
+         }
+         
+         Steps to achive encapsulation-:
+         1.decelear variable of a class private(sare variable ko private bnane hai)
+         2.public method that is getter and setter method create kr denge jo us data ko view 
+           or modifai krne ke kam ayega.
+         
+         * data ko view and modifai krne ke liye getter setter ka use krte hai.
+
+
+         3- Inhertence
+                advatage-> code reusebility
+                disadvantage-> tytile copuled. ak me change krne se sv class me effect dikhega
+                when prantes class allow to share there property and behaivor to child class and chide class 
+                inherit there property called inheritence.
+                
+                Type of inhertence:
+                
+                1- Single  : When B inherit to A
+                
+                2- Multilevel- When C inherit B and B inheri A . and also C inherit A
+                
+                3- hierachical- A parent two child b and c
+                
+                
+                4- Multiple- A B two parent and C one child
+
+                5- hybrid- A parent  B and C child, B C parent to D child 
+                
+                
+                extends.
+            
+         
+         
+         4- Abstraction
+                * jinki implimentation hide kr dete hai. aur jruri part show krayenge.
+                * Hiding implimentation  from user and show only necessary information.(ex-car)
+
+                two type achive Abstraction -:
+                1.Abstract class  (0 to 100% achiv abstraction)
+
+                2.interfaces  (yh 100%  abstraction achive krta hai)
+                 *iske andar sare method Abstractmethod hote hai.
+                 *interface class ka blue print hot hai.
+                 *yh multipal inheritance ko achieve krne ke kam me ata hai.
+
+
+                abstract class A{
+                    void area();  // no body
+                }
+                
+                class B extends A{
+                    public void area(){
+                        2 *r *r;
+                    }
+                }
+                
+                class main{
+                    void main(){
+                        
+                        B obj= new B();
+                        obj.area();
+                    }
+                }
+         
+         *agr class ke andar abstract method ata hai. to us class ko abstract bnana must hai.
+         *agr abstract class hai to jruri ni hai ki uske andar abstract method hoga.
+         *abstract class ka object create ni ho skta hai. but reference create kr skte hai.
+         
+
+         5-Diffrence between Abstraction and Encapsulation 
+            
+            1. Abstraction me implimation ko hide krta hai
+            1. Encapsulation information ko hide krta hai
+            
+            2. Abstraction me abstract key word ka use krte hai
+            2. Encapsulation AccessSpecifier(Public, privite, protecetd) use krte hai
+         
+         
+         type of method-:
+         (1) constructer-  yh method object bnane pr apne ap call ho jate hai.
+         (2) prototype  -  yh method call krne pr hi result deta hai. yh object bnanke call krte hai . koi method ko call krte hai object se.
+         (3) static     - ise object bnane ki jrurt ni hoti ise direct call kr skte hai.

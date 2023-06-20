@@ -1,0 +1,52 @@
+ 8511467700,7041660278,7984425252,7219335585 (webdesigner or front-end)
+ .newtonschool,alma better, sharpener(1), masischool, accio job(2), geekster, 
+ functionup(3)[whole no,prime no,..interview time question], ninjacode(4),placewit(1)
+ ,aircampus
+  CodeBlock Technologies
+  scaller, turin, 
+
+
+
+8398872020=> tue => 11:30(telifonic)
+w3villa Technologies => wed=>11am=>9311779937(walk best company)
+FutureGenApps =>wed(walk)
+7503412433=> thu=>walk(whatsapp)
+ 7827977175,7827977174=> (cavission system best company)
+8956164811(23 jan), 9650365746(24 jan 12pm)
+
+=========================mohali=======================
+7990345580(ahmdabad 27jan second time)
+9915137531(ludhiyana best company)
+8427149155(mohali friday, done)
+7347294105()
+7009008101(mohali 6-feb monday 2pm best company)
+gurjant singh(6 feb monday hirect 11am)
+7743072137(sat 3pm  3feb)
+78899076141(sat)
+devex company mohali(traning)
+9915995427(sat-11/02 11am)
+705693700(call)
+9815455397(web designning and development company)
+9888021115(webdesigner 13-02/ monday 12pm)
+thinkNext-call., 
+9875157997
+
+
+Hello ma'am.
+Are you company hiring Front-end developer or web designer??
+I completed 6 month internship this field. 
+
+try this man for linkden profile me=> bhargav talaviya
+
+preparation=>lifecycle method exm,company website, array, project, dashboard, oops, data structure,sql, html ,css, react js, star print, typescript
+class syntax in react js. state use in class component, lifecycle in class,
+
+1.props ke alva aur koi method data send krne ka??
+2.input field me name ko kaise find krenge??
+3.sorting
+4.searching
+5.array, string.
+6.session, cookies
+7.what is Api -:
+
+webpack, redux

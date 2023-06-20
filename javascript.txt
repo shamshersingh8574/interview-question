@@ -1,0 +1,47 @@
+why use try catch=>
+A try / catch block is basically used to handle errors in JavaScript. 
+You use this when you don't want an error in your script to break your code.
+
+why use promise => 
+ Promises are used to handle asynchronous operations in JavaScript.
+ They are easy to manage when dealing with multiple asynchronous operations
+ where callbacks can create callback hell leading to unmanageable code. 
+
+
+ diffrence b/w state and redux.
+
+ state=>React state is stored locally within a component
+
+ Redux=>When using Redux, state is stored globally in the Redux store.
+       
+       *State ko manage krne me help krta hai.
+
+
+4. Primitive and none primitive data type=>
+
+Primitive=> Number, string, undefine, boolean, null
+
+Non primitive=> object, Array
+
+
+5. call by value and call by refrence
+
+  by value -
+    // By value (primitives)
+    var a = 5;
+    var b;
+    b = a;
+    a = 3;
+    console.log(a);
+    console.log(b);
+
+    by refrence=>
+       // By reference (all objects (including functions))
+    var c = { greeting : 'Welcome' };
+    var d;
+    d = c;
+  
+    // Mutating the value of c
+    c.greeting = 'Welcome to geeksforgeeks';
+    console.log(c);
+    console.log(d);
